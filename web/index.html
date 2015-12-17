@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Image Slider</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <div class="container">
+        <h1>Image Slider Component</h1>
+
+        <div id="container"></div>
+    </div>
+    <script src="js/njImageSlider.js"></script>
+    <script>
+
+        
+        new njImageSlider({
+            'container' : document.getElementById('container'),
+            'images' : [
+                {
+                "src": "http://farm9.staticflickr.com/8072/8346734966_f9cd7d0941_z.jpg",
+                "landing": ""
+                },
+                {
+                "src": "http://farm9.staticflickr.com/8504/8365873811_d32571df3d_z.jpg",
+                "landing": ""
+                },
+                {
+                "src": "http://farm9.staticflickr.com/8068/8250438572_d1a5917072_z.jpg",
+                "landing": ""
+                },
+                {
+                "src": "http://farm9.staticflickr.com/8072/8346734966_f9cd7d0941_z.jpg",
+                "landing": ""
+                },
+                {
+                "src": "http://farm9.staticflickr.com/8504/8365873811_d32571df3d_z.jpg",
+                "landing": ""
+                }
+            ],
+            'width' : 500,
+            'height' : 350,
+            'auto' : true
+                        
+        });
+    </script>
+    
+    
+    
+
